@@ -1,0 +1,58 @@
+PODS:
+  - RAMRouter (1.0.7):
+    - RAMRouter/RAMCore (= 1.0.7)
+    - RAMRouter/RAMR3 (= 1.0.7)
+    - RAMUtil/RAMColor
+    - RAMUtil/RAMFrame
+    - RAMUtil/RAMImage
+    - RAMUtil/RAMLog
+  - RAMRouter/RAMCore (1.0.7):
+    - RAMRouter/RAMR3
+    - RAMUtil/RAMColor
+    - RAMUtil/RAMFrame
+    - RAMUtil/RAMImage
+    - RAMUtil/RAMLog
+  - RAMRouter/RAMR3 (1.0.7):
+    - RAMUtil/RAMColor
+    - RAMUtil/RAMFrame
+    - RAMUtil/RAMImage
+    - RAMUtil/RAMLog
+  - RAMUtil/RAMColor (1.0.4)
+  - RAMUtil/RAMFrame (1.0.4)
+  - RAMUtil/RAMImage (1.0.4)
+  - RAMUtil/RAMLog (1.0.4)
+  - RAMUtil/RAMMacros (1.0.4)
+  - RAMWeex (1.0.0):
+    - RAMRouter (~> 1.0.6)
+    - RAMUtil/RAMMacros
+    - SDWebImage (~> 3.8.2)
+    - WeexSDK (~> 0.20.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - WeexSDK (0.20.1)
+
+DEPENDENCIES:
+  - RAMWeex (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RAMRouter
+    - RAMUtil
+    - SDWebImage
+    - WeexSDK
+
+EXTERNAL SOURCES:
+  RAMWeex:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RAMRouter: 7a1778e0790e8ab7ab5386f8d5470c09724a73ba
+  RAMUtil: bf4962fdf1c969bfd72cd8a9133b5f0caf6673e0
+  RAMWeex: 28939448422154c0c43247818c1b573aa331f323
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  WeexSDK: ced3f2ef2f0cb48d1d76fd2f03c645572c632d21
+
+PODFILE CHECKSUM: 7289e0366a4b47256da79a06ef265b3f98ad6c67
+
+COCOAPODS: 1.5.3

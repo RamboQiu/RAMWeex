@@ -1,0 +1,1 @@
+../../../RAMRouter/RAMRouter/RAMCore/RAMNavigationPanGestureHandler.h

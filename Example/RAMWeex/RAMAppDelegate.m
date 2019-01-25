@@ -7,12 +7,14 @@
 //
 
 #import "RAMAppDelegate.h"
+#import "RAMWeexManager.h"
 
 @implementation RAMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[RAMWeexManager shareManager] initWeexEnv];
     return YES;
 }
 
